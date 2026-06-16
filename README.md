@@ -50,4 +50,8 @@ This project allows users to add, manage, and delete tasks through a clean and u
 - Dark Mode
 - Due Date Notifications
 
+  ## Live Demo
+
+🔗 https://aryanmehra420.github.io/To-Do-App/
+
 This project is open source and available under the MIT License.
