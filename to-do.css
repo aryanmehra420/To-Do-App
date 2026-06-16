@@ -4,7 +4,7 @@ body{
 
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 
     min-height: 100vh;
     overflow-x: hidden;
@@ -153,34 +153,44 @@ hr{
 @media (max-width: 768px){
 
     body{
-        padding: 5px;
+        padding: 10px;
+        align-items: flex-start;
     }
 
     #full{
         width: 100%;
         min-height: auto;
+        height: auto;
         border-radius: 20px;
+        margin: 10px 0;
     }
 
     #mainHeading{
-        font-size: 28px;
+        font-size: 24px;
+    }
+
+    #caption{
+        font-size: 13px;
     }
 
     .grid-container{
         grid-template-columns: 1fr;
         width: 95%;
+        margin: 10px auto;
     }
 
     #todo-input,
     #todo-date,
     #addButton{
         width: 100%;
+        box-sizing: border-box;
     }
 
     .todo-container{
         width: 95%;
-        margin: 15px 0;
+        margin: 15px auto;
         padding: 15px;
+        max-height: 300px;
     }
 
     .todo-card{
@@ -189,12 +199,12 @@ hr{
         gap: 10px;
     }
 
+    .todo-card span{
+        font-size: 14px;
+    }
+
     .delete-btn{
         padding: 8px 12px;
         font-size: 13px;
-    }
-
-    .todo-card span{
-        font-size: 14px;
     }
 }
