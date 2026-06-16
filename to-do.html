@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="to-do.css">
+    <title>To-Do List</title>
+</head>
+<body>
+    <div id="full">
+    <secion id="head-section">
+    <h1 id="mainHeading"><i class="fa-regular fa-square-check"></i> To-do List</h1>
+    <span id="caption">Organize your tasks and get things done</span><hr>
+    
+    <div class="grid-container">
+    <input id="todo-input" type="text" placeholder="Add a new task...">
+    <input type="date" id="todo-date">
+    <button id="addButton" onclick="addTodo()">Add</button>
+    </div>
+    
+    <div class="todo-container"></div>
+    </div>
+
+
+<script src="to-do.js"></script>
+
+</body>
+</html>
