@@ -11,7 +11,7 @@ This project allows users to add, manage, and delete tasks through a clean and u
 - Mark tasks as completed.
 - Responsive design for mobile and desktop.
 - Clean and modern UI.
-- Built with Vanilla JavaScript.
+- Built with Vanilla JavaScript
 
 ## 🛠️ Technologies Used
 
