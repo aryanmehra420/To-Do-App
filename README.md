@@ -7,7 +7,7 @@ This project allows users to add, manage, and delete tasks through a clean and u
 ## 🚀 Features
 
 - Add new tasks
-- Delete tasks
+- Delete tasks.
 - Mark tasks as completed.
 - Responsive design for mobile and desktop.
 - Clean and modern UI.
