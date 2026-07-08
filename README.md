@@ -4,7 +4,7 @@ A simple and responsive To-Do List web application built using HTML, CSS, and Ja
 
 This project allows users to add, manage, and delete tasks through a clean and user-friendly interface. It was created to practice core JavaScript concepts such as DOM manipulation, event handling, arrays, and responsive web design.
 
-## 🚀 Features
+### 🚀 Features
 
 - Add new tasks
 - Delete tasks
