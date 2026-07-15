@@ -18,7 +18,7 @@ This project allows users to add, manage, and delete tasks through a clean and u
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Font Awesome
+- Font Awesome.
 
 ## 📸 Preview
 
